@@ -1,0 +1,347 @@
+[
+  {
+    "id": "2026-w42",
+    "year": 2026,
+    "week": 42,
+    "created": "2026-10-11",
+    "store": "Netto",
+    "offers_period": "10.–16. oktober",
+    "note": "Tilbudspriserne er fra Nettos avis 10.–16. oktober via etilbudsavis.",
+    "dishes": [
+      {
+        "id": "karry",
+        "name": "Kyllingekarry med ris",
+        "time": "30 min",
+        "protein": "Kylling",
+        "desc": "Mild karry med kylling, peberfrugt og gulerod i kokosmælk. Kokosmælk er naturligt laktosefri.",
+        "ingredients": [
+          {
+            "item": "Dansk kyllingebrystfilet (900 g)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "69 kr."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Peberfrugt",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Kokosmælk",
+            "amount": 2,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Ris",
+            "amount": 300,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Karry",
+          "Olie",
+          "Salt og peber",
+          "Hønsebouillon"
+        ],
+        "steps": [
+          "Sæt risene over efter anvisningen på posen.",
+          "Skær kyllingen i strimler, hak løg og hvidløg, og skær peberfrugt og gulerødder i tynde stykker.",
+          "Brun kyllingen i lidt olie i en stor gryde, og tag den op.",
+          "Svits løg, hvidløg og 2 spsk. karry i 2 minutter. Tilsæt gulerødder og peberfrugt.",
+          "Hæld kokosmælk og ½ terning bouillon i, og lad det simre 10 minutter.",
+          "Kom kyllingen tilbage og lad den simre 5 minutter, til den er gennemstegt. Smag til med salt og server med ris."
+        ]
+      },
+      {
+        "id": "bolognese",
+        "name": "Spaghetti bolognese",
+        "time": "30 min",
+        "protein": "Okse",
+        "desc": "Klassisk kødsovs med revet gulerod gemt i saucen. Serveres med agurkestave og lidt parmesan til dem der vil.",
+        "ingredients": [
+          {
+            "item": "Netto hakket oksekød 14-18 % (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "30 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hakkede tomater",
+            "amount": 2,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Tomatpuré (lille dåse)",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Spaghetti",
+            "amount": 500,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Parmesan, lille stykke (valgfri, næsten laktosefri)",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          }
+        ],
+        "pantry": [
+          "Oregano",
+          "Olie",
+          "Salt og peber",
+          "Oksebouillon"
+        ],
+        "steps": [
+          "Hak løg og hvidløg fint, og riv gulerødderne.",
+          "Brun kødet i en gryde i lidt olie. Tilsæt løg, hvidløg og gulerod, og steg 3 minutter.",
+          "Rør tomatpuré i, og tilsæt hakkede tomater, 1 tsk. oregano og ½ terning bouillon.",
+          "Lad sovsen simre under låg i 15-20 minutter. Smag til med salt og peber.",
+          "Kog spaghetti efter anvisningen på pakken.",
+          "Server med agurkestave og revet parmesan ved siden af."
+        ]
+      },
+      {
+        "id": "frikadeller",
+        "name": "Frikadeller med kartofler og agurkesalat",
+        "time": "40 min",
+        "protein": "Svin og kalv",
+        "desc": "Hjemmelavede frikadeller af grise- og kalvekød, rørt med laktosefri mælk og havregryn. Kogte kartofler og sød-sur agurkesalat.",
+        "ingredients": [
+          {
+            "item": "Hakket grise- og kalvekød 8-12 % (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "20 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Æg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Laktosefri letmælk",
+            "amount": 1,
+            "unit": "dl",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Havregryn",
+            "amount": 50,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Salt og peber",
+          "Plantemargarine",
+          "Eddike",
+          "Sukker"
+        ],
+        "steps": [
+          "Skræl kartoflerne og sæt dem over at koge i letsaltet vand, ca. 20 minutter.",
+          "Riv løget fint. Rør kød, løg, æg, havregryn, mælk, 1 tsk. salt og lidt peber sammen til en fast fars. Lad den hvile 10 minutter.",
+          "Snit agurken tyndt og vend den med 1 dl eddike, 1 dl vand, 3 spsk. sukker og lidt salt.",
+          "Form frikadeller med en spiseske og steg dem i plantemargarine eller olie ved middel varme, 5-6 minutter på hver side.",
+          "Server frikadellerne med kartofler og agurkesalat."
+        ]
+      },
+      {
+        "id": "fisk",
+        "name": "Paneret fisk med kartofler og remoulade",
+        "time": "25 min",
+        "protein": "Fisk",
+        "desc": "Paneret fisk fra frost i ovnen, kogte kartofler, remoulade og en hurtig gulerodsråkost.",
+        "ingredients": [
+          {
+            "item": "Paneret fisk, frost (ca. 400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "25 kr. pr. pk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 4,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Citron",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Remoulade",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Salt og peber",
+          "Olie"
+        ],
+        "steps": [
+          "Tænd ovnen efter anvisningen på fiskepakken.",
+          "Skræl kartoflerne og kog dem i letsaltet vand, ca. 20 minutter.",
+          "Bag fisken i ovnen efter anvisningen, typisk 15-20 minutter.",
+          "Riv gulerødderne groft og vend dem med lidt citronsaft og et nip salt.",
+          "Server fisken med kartofler, remoulade, råkost og citronbåde."
+        ]
+      },
+      {
+        "id": "tacos",
+        "name": "Tacos med hakket kylling",
+        "time": "25 min",
+        "protein": "Kylling",
+        "desc": "Bløde tortillas med krydret hakket kylling, majs og grønt, som børnene selv kan bygge. Laktosefri cremefraiche som topping.",
+        "ingredients": [
+          {
+            "item": "Hakket dansk kyllingekød 7-10 % (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "25 kr. pr. pk."
+          },
+          {
+            "item": "Peberfrugt",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Cherrytomater",
+            "amount": 1,
+            "unit": "bakke",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Icebergsalat",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri cremefraiche",
+            "amount": 1,
+            "unit": "bæger",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Tortillas (8 stk.)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Majs",
+            "amount": 1,
+            "unit": "dåse",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Tacokrydderi",
+            "amount": 1,
+            "unit": "brev",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie"
+        ],
+        "steps": [
+          "Brun det hakkede kyllingekød i lidt olie på en pande.",
+          "Tilsæt tacokrydderi og vand efter anvisningen på brevet, og lad det simre 5 minutter.",
+          "Skær peberfrugt, agurk, tomater og salat i små stykker, og hæld majsene i en skål.",
+          "Varm tortillas på en tør pande eller i ovnen.",
+          "Sæt det hele på bordet, så alle kan bygge deres egne tacos med cremefraiche på toppen."
+        ]
+      }
+    ]
+  }
+]

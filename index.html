@@ -1,0 +1,252 @@
+<title>Familiens madplan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: one column for phone-in-the-shop use; dish cards toggle on/off, list and recipes follow below. */
+:root {
+  --bg: #f6f7f3;
+  --surface: #ffffff;
+  --ink: #1d2a22;
+  --muted: #5d6b61;
+  --line: #dde3da;
+  --leaf: #2f6b47;
+  --leaf-soft: #e3efe6;
+  --mustard: #c99a1c;
+  --offer-bg: #fbf1d4;
+  --offer-fg: #6f5208;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141a16; --surface: #1c241f; --ink: #e7ede8; --muted: #a2b0a6; --line: #2e3a32;
+    --leaf: #7cc497; --leaf-soft: #213328; --mustard: #e3b84a; --offer-bg: #3a3019; --offer-fg: #f0d58a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141a16; --surface: #1c241f; --ink: #e7ede8; --muted: #a2b0a6; --line: #2e3a32;
+  --leaf: #7cc497; --leaf-soft: #213328; --mustard: #e3b84a; --offer-bg: #3a3019; --offer-fg: #f0d58a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 64px; display: grid; gap: 32px; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(30px, 7vw, 44px); font-weight: 800; letter-spacing: -0.02em; }
+h2 { font-size: 24px; font-weight: 800; }
+h3 { font-size: 19px; font-weight: 600; }
+p { margin: 0; }
+.eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
+header { display: grid; gap: 12px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; color: var(--muted); }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; background: var(--leaf-soft); color: var(--leaf); font-weight: 700; font-size: 14px; }
+.weeks { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; }
+.weeks button { font: inherit; font-size: 14px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; white-space: nowrap; }
+.weeks button[aria-pressed="true"] { background: var(--leaf); border-color: var(--leaf); color: var(--bg); font-weight: 700; }
+section { display: grid; gap: 14px; }
+.sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.dishes { display: grid; gap: 10px; }
+.dish { display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: start; padding: 14px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; cursor: pointer; }
+.dish input { width: 22px; height: 22px; margin: 2px 0 0; accent-color: var(--leaf); cursor: pointer; }
+.dish .txt { display: grid; gap: 4px; min-width: 0; }
+.dish .sub { color: var(--muted); font-size: 14px; }
+.dish.off { opacity: 0.55; }
+.dish.off h3 { text-decoration: line-through; text-decoration-thickness: 1px; }
+.dish:focus-within { outline: 2px solid var(--leaf); outline-offset: 2px; }
+.tags { display: flex; gap: 8px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.tags span + span::before { content: "·"; margin-right: 8px; }
+.btn { font: inherit; font-size: 14px; font-weight: 700; padding: 8px 14px; border-radius: 8px; border: 1px solid var(--leaf); background: transparent; color: var(--leaf); cursor: pointer; }
+.btn:focus-visible, .weeks button:focus-visible { outline: 2px solid var(--leaf); outline-offset: 2px; }
+.list { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 6px 16px 14px; }
+.cat { padding-top: 12px; }
+.cat h4 { margin: 0 0 4px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.cat ul { list-style: none; margin: 0; padding: 0; }
+.cat li label { display: flex; gap: 10px; align-items: baseline; padding: 6px 0; border-bottom: 1px dashed var(--line); cursor: pointer; }
+.cat li:last-child label { border-bottom: 0; }
+.cat li input { accent-color: var(--leaf); width: 18px; height: 18px; flex: none; transform: translateY(3px); }
+.cat li .what { flex: 1; min-width: 0; }
+.cat li .qty { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.cat li.got .what { text-decoration: line-through; color: var(--muted); }
+.offer { display: inline-block; margin-left: 6px; padding: 0 7px; border-radius: 6px; background: var(--offer-bg); color: var(--offer-fg); font-size: 13px; font-weight: 700; }
+.pantry { color: var(--muted); font-size: 14px; padding-top: 12px; }
+.empty { color: var(--muted); padding: 14px 0; }
+.recipes { display: grid; gap: 10px; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 0 16px; }
+details[open] { padding-bottom: 16px; }
+summary { cursor: pointer; padding: 14px 0; display: flex; justify-content: space-between; gap: 12px; align-items: baseline; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; font-family: var(--display); font-size: 22px; color: var(--leaf); line-height: 1; }
+details[open] summary::after { content: "−"; }
+.rec { display: grid; gap: 14px; }
+.rec ul, .rec ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
+.rec ol li::marker { color: var(--leaf); font-weight: 700; }
+.foot { color: var(--muted); font-size: 13px; }
+@media (prefers-reduced-motion: no-preference) { .dish { transition: opacity .15s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Familien Sonne · Højbjerg</span>
+    <h1 id="title">Ugens madplan</h1>
+    <div class="meta" id="meta"></div>
+    <nav class="weeks" id="weeks" aria-label="Tidligere uger"></nav>
+  </header>
+
+  <section aria-labelledby="h-dishes">
+    <div class="sec-head">
+      <h2 id="h-dishes">Vælg retter</h2>
+      <span class="eyebrow" id="count"></span>
+    </div>
+    <div class="dishes" id="dishes"></div>
+  </section>
+
+  <section aria-labelledby="h-list">
+    <div class="sec-head">
+      <h2 id="h-list">Indkøbsliste</h2>
+      <button class="btn" id="copy" type="button">Kopiér liste</button>
+    </div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section aria-labelledby="h-rec">
+    <h2 id="h-rec">Opskrifter</h2>
+    <div class="recipes" id="recipes"></div>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<script id="data" type="application/json">[{"id": "2026-w42", "year": 2026, "week": 42, "created": "2026-10-11", "store": "Netto", "offers_period": "10.–16. oktober", "note": "Tilbudspriserne er fra Nettos avis 10.–16. oktober via etilbudsavis.", "dishes": [{"id": "karry", "name": "Kyllingekarry med ris", "time": "30 min", "protein": "Kylling", "desc": "Mild karry med kylling, peberfrugt og gulerod i kokosmælk. Kokosmælk er naturligt laktosefri.", "ingredients": [{"item": "Dansk kyllingebrystfilet (900 g)", "amount": 1, "unit": "pk.", "cat": "Kød og fisk", "offer": "69 kr."}, {"item": "Løg", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Hvidløg", "amount": 2, "unit": "fed", "cat": "Frugt og grønt"}, {"item": "Peberfrugt", "amount": 2, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Gulerødder", "amount": 2, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Kokosmælk", "amount": 2, "unit": "dåser", "cat": "Kolonial"}, {"item": "Ris", "amount": 300, "unit": "g", "cat": "Kolonial"}], "pantry": ["Karry", "Olie", "Salt og peber", "Hønsebouillon"], "steps": ["Sæt risene over efter anvisningen på posen.", "Skær kyllingen i strimler, hak løg og hvidløg, og skær peberfrugt og gulerødder i tynde stykker.", "Brun kyllingen i lidt olie i en stor gryde, og tag den op.", "Svits løg, hvidløg og 2 spsk. karry i 2 minutter. Tilsæt gulerødder og peberfrugt.", "Hæld kokosmælk og ½ terning bouillon i, og lad det simre 10 minutter.", "Kom kyllingen tilbage og lad den simre 5 minutter, til den er gennemstegt. Smag til med salt og server med ris."]}, {"id": "bolognese", "name": "Spaghetti bolognese", "time": "30 min", "protein": "Okse", "desc": "Klassisk kødsovs med revet gulerod gemt i saucen. Serveres med agurkestave og lidt parmesan til dem der vil.", "ingredients": [{"item": "Netto hakket oksekød 14-18 % (400 g)", "amount": 2, "unit": "pk.", "cat": "Kød og fisk", "offer": "30 kr. pr. pk."}, {"item": "Løg", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Hvidløg", "amount": 2, "unit": "fed", "cat": "Frugt og grønt"}, {"item": "Gulerødder", "amount": 2, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Agurk", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Hakkede tomater", "amount": 2, "unit": "dåser", "cat": "Kolonial"}, {"item": "Tomatpuré (lille dåse)", "amount": 1, "unit": "stk.", "cat": "Kolonial"}, {"item": "Spaghetti", "amount": 500, "unit": "g", "cat": "Kolonial"}, {"item": "Parmesan, lille stykke (valgfri, næsten laktosefri)", "amount": 1, "unit": "stk.", "cat": "Mejeri (laktosefri)"}], "pantry": ["Oregano", "Olie", "Salt og peber", "Oksebouillon"], "steps": ["Hak løg og hvidløg fint, og riv gulerødderne.", "Brun kødet i en gryde i lidt olie. Tilsæt løg, hvidløg og gulerod, og steg 3 minutter.", "Rør tomatpuré i, og tilsæt hakkede tomater, 1 tsk. oregano og ½ terning bouillon.", "Lad sovsen simre under låg i 15-20 minutter. Smag til med salt og peber.", "Kog spaghetti efter anvisningen på pakken.", "Server med agurkestave og revet parmesan ved siden af."]}, {"id": "frikadeller", "name": "Frikadeller med kartofler og agurkesalat", "time": "40 min", "protein": "Svin og kalv", "desc": "Hjemmelavede frikadeller af grise- og kalvekød, rørt med laktosefri mælk og havregryn. Kogte kartofler og sød-sur agurkesalat.", "ingredients": [{"item": "Hakket grise- og kalvekød 8-12 % (400 g)", "amount": 2, "unit": "pk.", "cat": "Kød og fisk", "offer": "20 kr. pr. pk."}, {"item": "Løg", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Kartofler", "amount": 1, "unit": "kg", "cat": "Frugt og grønt"}, {"item": "Agurk", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Æg", "amount": 1, "unit": "stk.", "cat": "Mejeri (laktosefri)"}, {"item": "Laktosefri letmælk", "amount": 1, "unit": "dl", "cat": "Mejeri (laktosefri)"}, {"item": "Havregryn", "amount": 50, "unit": "g", "cat": "Kolonial"}], "pantry": ["Salt og peber", "Plantemargarine", "Eddike", "Sukker"], "steps": ["Skræl kartoflerne og sæt dem over at koge i letsaltet vand, ca. 20 minutter.", "Riv løget fint. Rør kød, løg, æg, havregryn, mælk, 1 tsk. salt og lidt peber sammen til en fast fars. Lad den hvile 10 minutter.", "Snit agurken tyndt og vend den med 1 dl eddike, 1 dl vand, 3 spsk. sukker og lidt salt.", "Form frikadeller med en spiseske og steg dem i plantemargarine eller olie ved middel varme, 5-6 minutter på hver side.", "Server frikadellerne med kartofler og agurkesalat."]}, {"id": "fisk", "name": "Paneret fisk med kartofler og remoulade", "time": "25 min", "protein": "Fisk", "desc": "Paneret fisk fra frost i ovnen, kogte kartofler, remoulade og en hurtig gulerodsråkost.", "ingredients": [{"item": "Paneret fisk, frost (ca. 400 g)", "amount": 2, "unit": "pk.", "cat": "Kød og fisk", "offer": "25 kr. pr. pk."}, {"item": "Kartofler", "amount": 1, "unit": "kg", "cat": "Frugt og grønt"}, {"item": "Gulerødder", "amount": 4, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Citron", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Remoulade", "amount": 1, "unit": "stk.", "cat": "Kolonial"}], "pantry": ["Salt og peber", "Olie"], "steps": ["Tænd ovnen efter anvisningen på fiskepakken.", "Skræl kartoflerne og kog dem i letsaltet vand, ca. 20 minutter.", "Bag fisken i ovnen efter anvisningen, typisk 15-20 minutter.", "Riv gulerødderne groft og vend dem med lidt citronsaft og et nip salt.", "Server fisken med kartofler, remoulade, råkost og citronbåde."]}, {"id": "tacos", "name": "Tacos med hakket kylling", "time": "25 min", "protein": "Kylling", "desc": "Bløde tortillas med krydret hakket kylling, majs og grønt, som børnene selv kan bygge. Laktosefri cremefraiche som topping.", "ingredients": [{"item": "Hakket dansk kyllingekød 7-10 % (400 g)", "amount": 2, "unit": "pk.", "cat": "Kød og fisk", "offer": "25 kr. pr. pk."}, {"item": "Peberfrugt", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Agurk", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Cherrytomater", "amount": 1, "unit": "bakke", "cat": "Frugt og grønt"}, {"item": "Icebergsalat", "amount": 1, "unit": "stk.", "cat": "Frugt og grønt"}, {"item": "Laktosefri cremefraiche", "amount": 1, "unit": "bæger", "cat": "Mejeri (laktosefri)"}, {"item": "Tortillas (8 stk.)", "amount": 1, "unit": "pk.", "cat": "Kolonial"}, {"item": "Majs", "amount": 1, "unit": "dåse", "cat": "Kolonial"}, {"item": "Tacokrydderi", "amount": 1, "unit": "brev", "cat": "Kolonial"}], "pantry": ["Olie"], "steps": ["Brun det hakkede kyllingekød i lidt olie på en pande.", "Tilsæt tacokrydderi og vand efter anvisningen på brevet, og lad det simre 5 minutter.", "Skær peberfrugt, agurk, tomater og salat i små stykker, og hæld majsene i en skål.", "Varm tortillas på en tør pande eller i ovnen.", "Sæt det hele på bordet, så alle kan bygge deres egne tacos med cremefraiche på toppen."]}]}]</script>
+<script>
+(function () {
+  var WEEKS = JSON.parse(document.getElementById("data").textContent);
+  var CATS = ["Kød og fisk", "Frugt og grønt", "Mejeri (laktosefri)", "Kolonial"];
+  var cur = 0;
+
+  function load(key, fallback) { try { var v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch (e) { return fallback; } }
+  function save(key, val) { try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {} }
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function num(n) { return (Math.round(n * 10) / 10).toString().replace(".", ","); }
+
+  var hash = (location.hash || "").replace("#", "");
+  WEEKS.forEach(function (w, i) { if (hash === "uge-" + w.week) cur = i; });
+
+  function selected(w) { return load("madplan:sel:" + w.id, w.dishes.map(function (d) { return d.id; })); }
+  function got(w) { return load("madplan:got:" + w.id, []); }
+
+  function aggregate(w) {
+    var sel = selected(w), map = {}, order = [], pantry = [];
+    w.dishes.forEach(function (d) {
+      if (sel.indexOf(d.id) < 0) return;
+      d.ingredients.forEach(function (g) {
+        var k = g.item + "|" + g.unit;
+        if (!map[k]) { map[k] = { item: g.item, unit: g.unit, cat: g.cat, amount: 0, offer: g.offer || "", dishes: [] }; order.push(k); }
+        map[k].amount += g.amount;
+        if (map[k].dishes.indexOf(d.name) < 0) map[k].dishes.push(d.name);
+      });
+      (d.pantry || []).forEach(function (p) { if (pantry.indexOf(p) < 0) pantry.push(p); });
+    });
+    return { items: order.map(function (k) { return map[k]; }), pantry: pantry };
+  }
+
+  function render() {
+    var w = WEEKS[cur];
+    document.getElementById("title").textContent = "Madplan uge " + w.week;
+    var meta = document.getElementById("meta"); meta.textContent = "";
+    meta.appendChild(el("span", "chip", "Alt fra " + w.store));
+    if (w.offers_period) meta.appendChild(el("span", null, "Tilbud " + w.offers_period));
+
+    var weeks = document.getElementById("weeks"); weeks.textContent = "";
+    weeks.hidden = WEEKS.length < 2;
+    WEEKS.forEach(function (x, i) {
+      var b = el("button", null, (i === 0 ? "Denne uge · " : "") + "Uge " + x.week);
+      b.type = "button"; b.setAttribute("aria-pressed", i === cur ? "true" : "false");
+      b.onclick = function () { cur = i; history.replaceState(null, "", "#uge-" + x.week); render(); };
+      weeks.appendChild(b);
+    });
+
+    var sel = selected(w);
+    var dishes = document.getElementById("dishes"); dishes.textContent = "";
+    w.dishes.forEach(function (d) {
+      var on = sel.indexOf(d.id) >= 0;
+      var lab = el("label", "dish" + (on ? "" : " off"));
+      var cb = el("input"); cb.type = "checkbox"; cb.checked = on; cb.id = "dish-" + d.id;
+      cb.onchange = function () {
+        var s = selected(w).filter(function (x) { return x !== d.id; });
+        if (cb.checked) s.push(d.id);
+        save("madplan:sel:" + w.id, w.dishes.map(function (x) { return x.id; }).filter(function (id) { return s.indexOf(id) >= 0; }));
+        render();
+      };
+      var t = el("div", "txt");
+      t.appendChild(el("h3", null, d.name));
+      t.appendChild(el("p", "sub", d.desc));
+      var tags = el("div", "tags"); tags.appendChild(el("span", null, d.protein)); tags.appendChild(el("span", null, d.time));
+      t.appendChild(tags);
+      lab.appendChild(cb); lab.appendChild(t);
+      dishes.appendChild(lab);
+    });
+    document.getElementById("count").textContent = sel.length + " af " + w.dishes.length + " valgt";
+
+    var agg = aggregate(w), have = got(w);
+    var list = document.getElementById("list"); list.textContent = "";
+    if (!agg.items.length) list.appendChild(el("p", "empty", "Vælg mindst én ret for at se indkøbslisten."));
+    CATS.forEach(function (c) {
+      var items = agg.items.filter(function (i) { return i.cat === c; });
+      if (!items.length) return;
+      var box = el("div", "cat"); box.appendChild(el("h4", null, c));
+      var ul = el("ul");
+      items.forEach(function (i) {
+        var key = i.item + "|" + i.unit, isGot = have.indexOf(key) >= 0;
+        var li = el("li", isGot ? "got" : ""), lab = el("label");
+        var cb = el("input"); cb.type = "checkbox"; cb.checked = isGot; cb.id = "got-" + key.replace(/[^a-z0-9]/gi, "_");
+        cb.onchange = function () {
+          var h = got(w).filter(function (x) { return x !== key; });
+          if (cb.checked) h.push(key);
+          save("madplan:got:" + w.id, h); render();
+        };
+        var what = el("span", "what", i.item);
+        if (i.offer) what.appendChild(el("span", "offer", "Tilbud " + i.offer));
+        lab.appendChild(cb); lab.appendChild(what); lab.appendChild(el("span", "qty", num(i.amount) + " " + i.unit));
+        li.appendChild(lab); ul.appendChild(li);
+      });
+      box.appendChild(ul); list.appendChild(box);
+    });
+    if (agg.pantry.length) list.appendChild(el("p", "pantry", "Tjek om I har hjemme: " + agg.pantry.join(", ").toLowerCase() + "."));
+
+    var rec = document.getElementById("recipes"); rec.textContent = "";
+    w.dishes.forEach(function (d) {
+      if (sel.indexOf(d.id) < 0) return;
+      var det = el("details"); det.id = "rec-" + d.id;
+      var sum = el("summary"); sum.appendChild(el("h3", null, d.name)); det.appendChild(sum);
+      var body = el("div", "rec");
+      body.appendChild(el("p", "sub", d.time + " · 4 personer"));
+      var ing = el("ul");
+      d.ingredients.forEach(function (g) { ing.appendChild(el("li", null, num(g.amount) + " " + g.unit + " " + g.item)); });
+      (d.pantry || []).forEach(function (p) { ing.appendChild(el("li", null, p)); });
+      body.appendChild(ing);
+      var ol = el("ol"); d.steps.forEach(function (s) { ol.appendChild(el("li", null, s)); });
+      body.appendChild(ol);
+      det.appendChild(body); rec.appendChild(det);
+    });
+    if (!sel.length) rec.appendChild(el("p", "empty", "Opskrifterne vises for de retter, I vælger."));
+
+    document.getElementById("foot").textContent = (w.note || "") + " Valg og afkrydsninger gemmes på denne enhed.";
+  }
+
+  document.getElementById("copy").onclick = function () {
+    var w = WEEKS[cur], agg = aggregate(w), lines = ["Indkøbsliste uge " + w.week + " (" + w.store + ")"];
+    CATS.forEach(function (c) {
+      var items = agg.items.filter(function (i) { return i.cat === c; });
+      if (!items.length) return;
+      lines.push("", c + ":");
+      items.forEach(function (i) { lines.push("- " + num(i.amount) + " " + i.unit + " " + i.item + (i.offer ? " (tilbud " + i.offer + ")" : "")); });
+    });
+    var txt = lines.join("\n"), b = this;
+    function done() { b.textContent = "Kopieret"; setTimeout(function () { b.textContent = "Kopiér liste"; }, 1800); }
+    try { navigator.clipboard.writeText(txt).then(done, function () { b.textContent = "Kunne ikke kopiere"; }); } catch (e) { b.textContent = "Kunne ikke kopiere"; }
+  };
+
+  render();
+})();
+</script>
