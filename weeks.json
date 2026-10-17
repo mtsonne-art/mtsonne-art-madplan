@@ -1,5 +1,326 @@
 [
   {
+    "id": "2026-w43",
+    "year": 2026,
+    "week": 43,
+    "created": "2026-10-17",
+    "store": "Netto",
+    "offers_period": "17.–23. oktober",
+    "note": "Tilbudspriserne er fra Nettos avis 17.–23. oktober via etilbudsavis. Ugens fisketilbud var kun laks, så torsken er til normalpris.",
+    "dishes": [
+      {
+        "id": "kyllingelaar",
+        "name": "Ovnbagte kyllingelår med kartofler og gulerødder",
+        "time": "45 min",
+        "protein": "Kylling",
+        "desc": "Sprøde kyllingeoverlår med paprika, bagt i samme fad som kartofler, gulerødder og løg. Agurk ved siden af.",
+        "ingredients": [
+          {
+            "item": "Danske kyllingeoverlår (300-400 g)",
+            "amount": 3,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "10 kr. pr. pk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1.5,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 6,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Løg",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Salt og peber",
+          "Paprika",
+          "Timian"
+        ],
+        "steps": [
+          "Tænd ovnen på 200 grader varmluft.",
+          "Skær kartofler i både, gulerødder i stave og løg i kvarte. Vend det med olie, salt og timian i et stort fad.",
+          "Gnid kyllingelårene med olie, salt, peber og 2 tsk. paprika, og læg dem oven på grøntsagerne med skindet opad.",
+          "Bag i ca. 40 minutter, til kyllingen er gennemstegt og skindet sprødt.",
+          "Server med agurkestave."
+        ]
+      },
+      {
+        "id": "chili",
+        "name": "Chili con carne med ris",
+        "time": "35 min",
+        "protein": "Okse",
+        "desc": "Mild chili med hakket oksekød, bønner og majs. Laktosefri cremefraiche på toppen.",
+        "ingredients": [
+          {
+            "item": "Netto hakket oksekød 8-12 % (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "35 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Peberfrugt",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hakkede tomater",
+            "amount": 2,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Kidneybønner",
+            "amount": 1,
+            "unit": "dåse",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Majs",
+            "amount": 1,
+            "unit": "dåse",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Ris",
+            "amount": 300,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Laktosefri cremefraiche",
+            "amount": 1,
+            "unit": "bæger",
+            "cat": "Mejeri (laktosefri)"
+          }
+        ],
+        "pantry": [
+          "Spidskommen",
+          "Paprika",
+          "Olie",
+          "Salt og peber",
+          "Oksebouillon"
+        ],
+        "steps": [
+          "Sæt risene over efter anvisningen på posen.",
+          "Hak løg og hvidløg, og skær peberfrugterne i tern.",
+          "Brun kødet i en gryde i lidt olie. Tilsæt løg, hvidløg, peberfrugt, 2 tsk. spidskommen og 2 tsk. paprika, og steg 2 minutter.",
+          "Tilsæt hakkede tomater, skyllede bønner, majs og ½ terning bouillon. Lad det simre 15 minutter.",
+          "Smag til med salt og peber, og server med ris og en klat cremefraiche."
+        ]
+      },
+      {
+        "id": "wok",
+        "name": "Kyllingewok med nudler",
+        "time": "25 min",
+        "protein": "Kylling",
+        "desc": "Hurtig wok med kyllingestrimler, broccoli, peberfrugt og gulerod i teriyakisauce med ægnudler.",
+        "ingredients": [
+          {
+            "item": "Dansk kyllingebrystfilet (600-1000 g)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "49 kr."
+          },
+          {
+            "item": "Broccoli",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Peberfrugt",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Ægnudler",
+            "amount": 250,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Teriyakisauce",
+            "amount": 1,
+            "unit": "flaske",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Sojasauce"
+        ],
+        "steps": [
+          "Kog nudlerne efter anvisningen, og skyl dem i koldt vand.",
+          "Skær kyllingen i tynde strimler, broccoli i små buketter, peberfrugt i strimler og gulerødder i tynde skiver. Hak hvidløget.",
+          "Steg kyllingen ved høj varme i lidt olie i en wok eller stor pande, til den er gennemstegt. Tag den op.",
+          "Steg grøntsager og hvidløg 3-4 minutter, så de stadig er sprøde.",
+          "Kom kylling, nudler, 1 dl teriyakisauce og en skvæt soja i, og vend det hele rundt, til det er varmt."
+        ]
+      },
+      {
+        "id": "aeggekage",
+        "name": "Æggekage med kartofler og purløg",
+        "time": "30 min",
+        "protein": "Vegetar",
+        "desc": "Klassisk æggekage på panden med stegte kartofler, cherrytomater og purløg. Serveres med rugbrød.",
+        "ingredients": [
+          {
+            "item": "Dava danske frilandsæg (8 stk.)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "16 kr."
+          },
+          {
+            "item": "Laktosefri letmælk",
+            "amount": 2,
+            "unit": "dl",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Kartofler",
+            "amount": 0.5,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Cherrytomater",
+            "amount": 1,
+            "unit": "bakke",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Purløg",
+            "amount": 1,
+            "unit": "bundt",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Schulstad levebrød (rugbrød)",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial",
+            "offer": "9 kr."
+          }
+        ],
+        "pantry": [
+          "Hvedemel",
+          "Plantemargarine",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Kog kartoflerne møre (ca. 15 minutter), lad dem køle lidt af, og skær dem i skiver.",
+          "Pisk 8 æg med 2 dl mælk, 1 spsk. mel, ½ tsk. salt og lidt peber.",
+          "Brun kartoffelskiverne i plantemargarine på en stor pande.",
+          "Hæld æggemassen over og lad den stivne ved lav varme under låg i 10-12 minutter. Træk forsigtigt i den med en spatel undervejs.",
+          "Top med halverede cherrytomater og klippet purløg, og server med rugbrød."
+        ]
+      },
+      {
+        "id": "torsk",
+        "name": "Torsk med kartofler, ærter og persillesovs",
+        "time": "30 min",
+        "protein": "Fisk",
+        "desc": "Mild ovnbagt torsk med kogte kartofler, ærter og en persillesovs lavet på laktosefri mælk.",
+        "ingredients": [
+          {
+            "item": "Torskefilet, frost (ca. 500 g)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kød og fisk"
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Persille",
+            "amount": 1,
+            "unit": "bundt",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Citron",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri letmælk",
+            "amount": 5,
+            "unit": "dl",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Frosne ærter",
+            "amount": 1,
+            "unit": "pose",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Hvedemel",
+          "Plantemargarine",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Tø torsken op i køleskabet dagen før, eller bag den fra frost efter anvisningen på pakken.",
+          "Tænd ovnen på 180 grader. Skræl kartoflerne og kog dem i letsaltet vand, ca. 20 minutter.",
+          "Læg torsken i et smurt fad, drys med salt og peber og pres lidt citron over. Bag i 12-15 minutter.",
+          "Smelt 3 spsk. plantemargarine i en gryde, pisk 3 spsk. mel i, og tilsæt mælken lidt ad gangen under piskning. Lad sovsen koge 3 minutter, og rør hakket persille, salt og peber i.",
+          "Kog ærterne et par minutter, og server det hele sammen med citronbåde."
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-w42",
     "year": 2026,
     "week": 42,
