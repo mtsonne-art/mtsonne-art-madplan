@@ -1,5 +1,348 @@
 [
   {
+    "id": "2026-w44",
+    "year": 2026,
+    "week": 44,
+    "created": "2026-10-24",
+    "store": "Netto",
+    "offers_period": "24.–30. oktober",
+    "note": "Tilbudspriserne er fra Nettos avis 24.–30. oktober via etilbudsavis.",
+    "dishes": [
+      {
+        "id": "kyllingepasta",
+        "name": "Kyllingepasta med tomat og spinat",
+        "time": "30 min",
+        "protein": "Kylling",
+        "desc": "Penne med kyllingestrimler, cherrytomater og spinat i en cremet sauce med laktosefri madlavningsfløde.",
+        "ingredients": [
+          {
+            "item": "Dansk kyllingebrystfilet (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "25 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Cherrytomater",
+            "amount": 1,
+            "unit": "bakke",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Babyspinat",
+            "amount": 1,
+            "unit": "pose",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri madlavningsfløde",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Penne",
+            "amount": 500,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Salt og peber",
+          "Hønsebouillon"
+        ],
+        "steps": [
+          "Kog pastaen efter anvisningen på pakken.",
+          "Skær kyllingen i strimler, hak løg og hvidløg, og halvér tomaterne.",
+          "Steg kyllingen gylden i lidt olie, og tag den op. Svits løg og hvidløg 2 minutter på samme pande.",
+          "Tilsæt fløde, ½ terning bouillon og tomater, og lad det simre 5 minutter.",
+          "Kom kylling og spinat i, og rør til spinaten falder sammen. Smag til med salt og peber, og vend med pastaen."
+        ]
+      },
+      {
+        "id": "porresuppe",
+        "name": "Kartoffel-porresuppe med sprød bacon",
+        "time": "35 min",
+        "protein": "Svin",
+        "desc": "Cremet suppe af kartofler og porrer, toppet med sprøde baconstykker. Serveres med varme flutes.",
+        "ingredients": [
+          {
+            "item": "Brunchy bacon i skiver (100 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "5 kr. pr. pk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Porrer",
+            "amount": 3,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri madlavningsfløde",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Flutes",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Hønsebouillon",
+          "Salt og peber",
+          "Olie"
+        ],
+        "steps": [
+          "Skræl og skær kartoflerne i tern. Skyl porrerne og skær dem i ringe, og hak løget.",
+          "Svits løg og porrer i lidt olie i en stor gryde i 5 minutter.",
+          "Tilsæt kartofler, 1,5 l vand og 2 terninger bouillon, og kog i 20 minutter, til kartoflerne er møre.",
+          "Steg imens baconen sprød på en pande, og lad den dryppe af på køkkenrulle. Lun flutes i ovnen.",
+          "Blend suppen, rør fløden i og smag til med salt og peber. Server med bacon drysset over."
+        ]
+      },
+      {
+        "id": "burgere",
+        "name": "Hjemmelavede burgere med ovnfritter",
+        "time": "40 min",
+        "protein": "Okse",
+        "desc": "Burgerbøffer af magert hakket oksekød i boller med salat, tomat og agurk. Ovnbagte fritter ved siden af.",
+        "ingredients": [
+          {
+            "item": "Netto hakket oksekød 4-7 % (300-350 g)",
+            "amount": 3,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "39,95 kr. pr. pk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1.5,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Icebergsalat",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Tomater",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Rødløg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Burgerboller",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Hellmann's dressing",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial",
+            "offer": "16 kr."
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Salt og peber",
+          "Ketchup"
+        ],
+        "steps": [
+          "Tænd ovnen på 220 grader. Skær kartoflerne i stave, vend dem med olie og salt, og bag dem i 30-35 minutter.",
+          "Form kødet til 6 flade bøffer og krydr med salt og peber.",
+          "Skær salat, tomater, agurk og rødløg i skiver.",
+          "Steg bøfferne 3-4 minutter på hver side på en varm pande. Lun bollerne kort på panden eller i ovnen.",
+          "Byg burgerne med dressing, grønt og ketchup, og server med fritterne."
+        ]
+      },
+      {
+        "id": "fiskepinde",
+        "name": "Fiskepinde med kartoffelmos og gulerodssalat",
+        "time": "30 min",
+        "protein": "Fisk",
+        "desc": "Sprøde fiskepinde fra ovnen med cremet kartoffelmos på laktosefri mælk og en sød gulerod-æble-salat.",
+        "ingredients": [
+          {
+            "item": "Navito fiskepinde, frost",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "20 kr. pr. pk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 4,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Æble",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Citron",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri letmælk",
+            "amount": 2,
+            "unit": "dl",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Remoulade",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Plantemargarine",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Skræl kartoflerne og kog dem møre i letsaltet vand, ca. 20 minutter.",
+          "Bag fiskepindene i ovnen efter anvisningen på pakken.",
+          "Riv gulerødder og æble groft, og vend med lidt citronsaft.",
+          "Hæld vandet fra kartoflerne og mos dem med varm mælk, en klat plantemargarine, salt og peber.",
+          "Server fiskepindene med mos, gulerodssalat, remoulade og citronbåde."
+        ]
+      },
+      {
+        "id": "kyllingespyd",
+        "name": "Kyllingespyd med ris og tzatziki",
+        "time": "35 min",
+        "protein": "Kylling",
+        "desc": "Spyd med kylling, peberfrugt og rødløg fra ovnen eller panden. Ris og hjemmelavet tzatziki på laktosefri yoghurt.",
+        "ingredients": [
+          {
+            "item": "Dansk kyllingebrystfilet (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "25 kr. pr. pk."
+          },
+          {
+            "item": "Peberfrugt",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Rødløg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 1,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Citron",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri yoghurt naturel",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Ris",
+            "amount": 300,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Grillspyd",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Salt og peber",
+          "Oregano"
+        ],
+        "steps": [
+          "Sæt risene over efter anvisningen på posen. Tænd ovnen på 220 grader.",
+          "Skær kylling, peberfrugt og rødløg i stykker, vend med olie, saft af ½ citron, 1 tsk. oregano, salt og peber, og sæt det på spyd.",
+          "Bag spyddene på en plade i ovnen i 15-18 minutter, til kyllingen er gennemstegt.",
+          "Riv halvdelen af agurken groft, pres vandet fra, og rør den med yoghurt, presset hvidløg, salt og peber.",
+          "Server spyddene med ris, tzatziki og resten af agurken i stave."
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-w43",
     "year": 2026,
     "week": 43,
