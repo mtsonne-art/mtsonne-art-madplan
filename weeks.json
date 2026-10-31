@@ -1,5 +1,334 @@
 [
   {
+    "id": "2026-w45",
+    "year": 2026,
+    "week": 45,
+    "created": "2026-10-31",
+    "store": "Netto",
+    "offers_period": "31. oktober–6. november",
+    "note": "Tilbudspriserne er fra Nettos avis 31. oktober–6. november via etilbudsavis.",
+    "dishes": [
+      {
+        "id": "nuggets",
+        "name": "Hjemmelavede kyllingenuggets med kartoffelbåde",
+        "time": "40 min",
+        "protein": "Kylling",
+        "desc": "Sprøde nuggets af kyllingebryst i panko, bagt i ovnen sammen med kartoffelbåde. Gulerods- og agurkestave ved siden af.",
+        "ingredients": [
+          {
+            "item": "Dansk kyllingebrystfilet (900-1000 g)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "69 kr."
+          },
+          {
+            "item": "Egelykke danske skrabeæg",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "18 kr. for 10 stk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1.5,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 4,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Panko rasp",
+            "amount": 1,
+            "unit": "pose",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Hvedemel",
+          "Olie",
+          "Salt og peber",
+          "Paprika",
+          "Ketchup"
+        ],
+        "steps": [
+          "Tænd ovnen på 220 grader. Skær kartoflerne i både, vend dem med olie og salt, og bag dem i 30-35 minutter.",
+          "Skær kyllingen i mundrette stykker.",
+          "Sæt tre skåle frem: mel med salt og paprika, sammenpisket æg og panko.",
+          "Vend kyllingestykkerne i mel, æg og panko, læg dem på en plade med bagepapir og dryp med lidt olie.",
+          "Bag nuggets i 15-18 minutter, til de er gyldne og gennemstegte. Server med kartoffelbåde, grøntsagsstave og ketchup."
+        ]
+      },
+      {
+        "id": "braendende",
+        "name": "Brændende kærlighed med rødbeder",
+        "time": "35 min",
+        "protein": "Svin",
+        "desc": "Klassisk kartoffelmos lavet på laktosefri mælk, toppet med sprødt stegt flæsk og bløde løg. Rødbeder til.",
+        "ingredients": [
+          {
+            "item": "Netto dansk flæsk i skiver (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "25 kr. pr. pk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1.5,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Løg",
+            "amount": 3,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Arla Lactofree mælk (1 l)",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "12 kr."
+          },
+          {
+            "item": "Rødbeder",
+            "amount": 1,
+            "unit": "glas",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Plantemargarine",
+          "Salt og peber",
+          "Muskatnød"
+        ],
+        "steps": [
+          "Skræl kartoflerne og kog dem møre i letsaltet vand, ca. 20 minutter.",
+          "Skær flæsket i stykker og steg det sprødt på en pande. Tag det op og lad det dryppe af.",
+          "Skær løgene i tynde både og steg dem bløde og gyldne i lidt af fedtet fra flæsket.",
+          "Hæld vandet fra kartoflerne og mos dem med ca. 3 dl varm mælk, en klat plantemargarine, salt, peber og lidt muskatnød.",
+          "Fordel mosen på tallerkener, top med flæsk og løg, og server med rødbeder."
+        ]
+      },
+      {
+        "id": "tunpasta",
+        "name": "Pasta med tun i tomatsauce",
+        "time": "20 min",
+        "protein": "Fisk",
+        "desc": "Hurtig hverdagspasta med tun, tomat og lidt citron. Agurk ved siden af.",
+        "ingredients": [
+          {
+            "item": "Glyngøre tun (dåse)",
+            "amount": 3,
+            "unit": "dåser",
+            "cat": "Kød og fisk",
+            "offer": "10 kr. pr. dåse"
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Citron",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hakkede tomater",
+            "amount": 2,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Fusilli",
+            "amount": 500,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Salt og peber",
+          "Oregano"
+        ],
+        "steps": [
+          "Kog pastaen efter anvisningen på pakken.",
+          "Hak løg og hvidløg, og svits dem i lidt olie i 3 minutter.",
+          "Tilsæt hakkede tomater og 1 tsk. oregano, og lad saucen simre 10 minutter.",
+          "Hæld vandet fra tunen, og vend den forsigtigt i saucen sammen med lidt revet citronskal og en skvæt citronsaft. Smag til med salt og peber.",
+          "Vend saucen med pastaen og server med agurkestave."
+        ]
+      },
+      {
+        "id": "bollerikarry",
+        "name": "Boller i karry med ris",
+        "time": "40 min",
+        "protein": "Svin",
+        "desc": "Kogte kødboller af hakket grisekød i mild karrysauce med æble og løg. Serveres med ris.",
+        "ingredients": [
+          {
+            "item": "Hakket dansk grisekød 8-12 % (300 g)",
+            "amount": 3,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "10 kr. pr. pk."
+          },
+          {
+            "item": "Egelykke danske skrabeæg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "18 kr. for 10 stk."
+          },
+          {
+            "item": "Løg",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Æble",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri madlavningsfløde",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Ris",
+            "amount": 300,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Karry",
+          "Hvedemel",
+          "Plantemargarine",
+          "Hønsebouillon",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Riv det ene løg fint, og rør kødet med løg, æg, 2 spsk. mel, 1 tsk. salt og lidt peber.",
+          "Bring 1 l vand med 2 terninger bouillon i kog. Form små boller med en teske og kog dem i ca. 8 minutter. Tag dem op og gem 6 dl af kogevandet.",
+          "Sæt risene over efter anvisningen på posen.",
+          "Hak det andet løg og æblet. Svits dem i 3 spsk. plantemargarine med 2 spsk. karry, pisk 3 spsk. mel i, og tilsæt kogevandet lidt ad gangen under piskning.",
+          "Rør fløden i, lad sovsen simre 5 minutter, og kom bollerne tilbage. Smag til og server med ris."
+        ]
+      },
+      {
+        "id": "bonnewraps",
+        "name": "Vegetarwraps med bønner, majs og avocado",
+        "time": "25 min",
+        "protein": "Vegetar",
+        "desc": "Bløde tortillas med krydrede kidneybønner, majs, peberfrugt og avocado. Laktosefri cremefraiche på toppen.",
+        "ingredients": [
+          {
+            "item": "Peberfrugt",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Avocado",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Tomater",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Icebergsalat",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Citron",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri cremefraiche",
+            "amount": 1,
+            "unit": "bæger",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Tortillas (8 stk.)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Kidneybønner",
+            "amount": 2,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Majs",
+            "amount": 1,
+            "unit": "dåse",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Tacokrydderi",
+            "amount": 1,
+            "unit": "brev",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie"
+        ],
+        "steps": [
+          "Skyl bønnerne, og steg dem 5 minutter i lidt olie med tacokrydderi og en skvæt vand. Mos dem let med en gaffel.",
+          "Skær peberfrugt, tomater og salat i strimler eller tern, og hæld majsene i en skål.",
+          "Mos avocadoerne med citronsaft og et nip salt.",
+          "Varm tortillas på en tør pande.",
+          "Sæt det hele på bordet, så alle kan fylde deres egne wraps og toppe med cremefraiche."
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-w44",
     "year": 2026,
     "week": 44,
