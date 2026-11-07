@@ -1,5 +1,347 @@
 [
   {
+    "id": "2026-w46",
+    "year": 2026,
+    "week": 46,
+    "created": "2026-11-07",
+    "store": "Netto",
+    "offers_period": "7.–13. november",
+    "note": "Tilbudspriserne er fra Nettos avis 7.–13. november via etilbudsavis.",
+    "dishes": [
+      {
+        "id": "honningkylling",
+        "name": "Honning-soja kyllingeoverlår med ris og broccoli",
+        "time": "40 min",
+        "protein": "Kylling",
+        "desc": "Kyllingeoverlår i ovnen med en sødlig glasur af honning og soja. Ris og dampet broccoli ved siden af.",
+        "ingredients": [
+          {
+            "item": "Dansk kyllingeoverlår (300-400 g)",
+            "amount": 3,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "10 kr. pr. pk."
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Broccoli",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Ris",
+            "amount": 300,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Sojasauce",
+            "amount": 1,
+            "unit": "fl.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Honning",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Tænd ovnen på 200 grader.",
+          "Rør 4 spsk. soja, 3 spsk. honning, presset hvidløg og 1 spsk. olie sammen.",
+          "Læg kyllingen i et ovnfast fad, hæld glasuren over og vend godt.",
+          "Bag kyllingen 30-35 minutter, til den er gennemstegt. Hæld glasur over halvvejs.",
+          "Kog ris efter anvisningen, og damp broccoli og gulerodsstave i 5 minutter.",
+          "Server kyllingen med ris, grønt og glasuren fra fadet."
+        ]
+      },
+      {
+        "id": "hakkeboef",
+        "name": "Hakkebøffer med bløde løg, kartofler og sovs",
+        "time": "35 min",
+        "protein": "Okse",
+        "desc": "Klassiske hakkebøffer af magert oksekød med bløde løg, kogte kartofler og brun sovs. Sovsen jævnes med laktosefri fløde.",
+        "ingredients": [
+          {
+            "item": "Netto hakket oksekød 4-7 % (350 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "39 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 3,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri madlavningsfløde",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Sovsekulør",
+            "amount": 1,
+            "unit": "fl.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Salt og peber",
+          "Plantemargarine",
+          "Hvedemel",
+          "Oksebouillon"
+        ],
+        "steps": [
+          "Skræl kartoflerne og kog dem i letsaltet vand, ca. 20 minutter.",
+          "Skær løgene i tynde både og steg dem bløde og gyldne i plantemargarine, ca. 10 minutter. Tag dem af panden.",
+          "Form kødet til 6 bøffer, krydr med salt og peber og steg dem 3-4 minutter på hver side.",
+          "Tag bøfferne af. Drys 1 spsk. mel på panden, pisk 3 dl vand og ½ terning bouillon i, og kog op.",
+          "Tilsæt en skvæt fløde og lidt sovsekulør, og læg bøffer og løg tilbage i sovsen et par minutter.",
+          "Server med kartofler og agurkeskiver."
+        ]
+      },
+      {
+        "id": "koedboller",
+        "name": "Kødboller i tomatsauce med spaghetti",
+        "time": "35 min",
+        "protein": "Svin og kalv",
+        "desc": "Små kødboller af grise- og kalvekød, der simrer færdige i en tomatsauce. Børnevenligt og nemt.",
+        "ingredients": [
+          {
+            "item": "Hakket grise- og kalvekød 8-12 % (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "20 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Æg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "30 kr. for 10 stk. (ØGO)"
+          },
+          {
+            "item": "Hakkede tomater",
+            "amount": 2,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Spaghetti",
+            "amount": 500,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Havregryn",
+            "amount": 50,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Oregano",
+          "Olie",
+          "Salt og peber",
+          "Sukker"
+        ],
+        "steps": [
+          "Rør kød, æg, havregryn, 1 tsk. salt og lidt peber sammen, og rul farsen til små boller.",
+          "Brun kødbollerne i lidt olie i en stor gryde, og tag dem op.",
+          "Svits hakket løg og hvidløg i gryden, og tilsæt hakkede tomater, 1 tsk. oregano og en knivspids sukker.",
+          "Læg kødbollerne i saucen og lad dem simre under låg i 15 minutter.",
+          "Kog spaghetti efter anvisningen.",
+          "Server med agurkestave ved siden af."
+        ]
+      },
+      {
+        "id": "poelsegryde",
+        "name": "Pølsegryde med peberfrugt og ris",
+        "time": "30 min",
+        "protein": "Pølser",
+        "desc": "Skiver af pølser i en mild tomat- og paprikasauce med peberfrugt og gulerod. Serveres med ris.",
+        "ingredients": [
+          {
+            "item": "Steff Houlberg pølser (300-400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "20 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Peberfrugt",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri madlavningsfløde",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Hakkede tomater",
+            "amount": 1,
+            "unit": "dåse",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Tomatpuré (lille dåse)",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Ris",
+            "amount": 300,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Paprika",
+          "Olie",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Sæt risene over efter anvisningen.",
+          "Skær pølserne i skiver, hak løget og skær peberfrugt og gulerødder i tern.",
+          "Brun pølserne i lidt olie, tilsæt løg og grønt og steg 3 minutter.",
+          "Rør 2 spsk. tomatpuré og 2 tsk. paprika i, og tilsæt hakkede tomater og ½ fløde.",
+          "Lad gryden simre 10 minutter. Smag til med salt og peber, og server med ris."
+        ]
+      },
+      {
+        "id": "carbonara",
+        "name": "Pasta carbonara med bacon og ærter",
+        "time": "20 min",
+        "protein": "Svin",
+        "desc": "Hurtig carbonara med sprød bacon og ærter. Laktosefri fløde og kun lidt parmesan, som kan drysses på til dem der vil.",
+        "ingredients": [
+          {
+            "item": "Bacon i skiver (500 g)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "24,95 kr."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Æg",
+            "amount": 3,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "30 kr. for 10 stk. (ØGO)"
+          },
+          {
+            "item": "Laktosefri madlavningsfløde",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Parmesan, lille stykke (valgfri, næsten laktosefri)",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Frosne ærter",
+            "amount": 1,
+            "unit": "pose",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Spaghetti",
+            "amount": 500,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Salt og peber"
+        ],
+        "steps": [
+          "Kog spaghetti efter anvisningen. Kom ærterne i gryden de sidste 2 minutter.",
+          "Skær bacon i strimler og steg den sprød på en stor pande med det hakkede løg.",
+          "Pisk æg og ½ fløde sammen med lidt peber.",
+          "Hæld pasta og ærter fra, men gem 1 dl kogevand.",
+          "Vend pastaen med bacon på panden, tag panden af varmen og rør æggeblandingen i med lidt kogevand, til det er cremet.",
+          "Server straks med revet parmesan ved siden af."
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-w45",
     "year": 2026,
     "week": 45,
