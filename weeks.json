@@ -1,5 +1,368 @@
 [
   {
+    "id": "2026-w48",
+    "year": 2026,
+    "week": 48,
+    "created": "2026-11-21",
+    "store": "Netto",
+    "offers_period": "21.–27. november",
+    "note": "Tilbudspriserne er fra Nettos avis 21.–27. november via etilbudsavis.",
+    "dishes": [
+      {
+        "id": "fajitas",
+        "name": "Kyllingefajitas med peberfrugt og løg",
+        "time": "25 min",
+        "protein": "Kylling",
+        "desc": "Krydrede kyllingestrimler med stegt peberfrugt og løg i varme tortillas. Laktosefri cremefraiche og grønt, så alle kan bygge selv.",
+        "ingredients": [
+          {
+            "item": "Kyllingebrystfilet (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "25 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Peberfrugt",
+            "amount": 3,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Icebergsalat",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri cremefraiche",
+            "amount": 1,
+            "unit": "bæger",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Tortillas (8 stk.)",
+            "amount": 1,
+            "unit": "pk.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Fajitakrydderi",
+            "amount": 1,
+            "unit": "brev",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Majs",
+            "amount": 1,
+            "unit": "dåse",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Skær kyllingen i tynde strimler og vend dem med fajitakrydderiet og 1 spsk. olie.",
+          "Skær løg og peberfrugt i strimler, og agurk og salat i små stykker.",
+          "Steg kyllingen ved høj varme i 5-6 minutter, til den er gennemstegt. Tag den af panden.",
+          "Steg løg og peberfrugt 4-5 minutter, og vend kyllingen tilbage på panden.",
+          "Varm tortillas på en tør pande.",
+          "Sæt det hele på bordet med majs, salat, agurk og cremefraiche."
+        ]
+      },
+      {
+        "id": "bolognese48",
+        "name": "Spaghetti med kødsovs og grøntsager",
+        "time": "35 min",
+        "protein": "Okse",
+        "desc": "Kødsovs med revet gulerod og squash gemt i saucen. Serveres med spaghetti og agurkestave.",
+        "ingredients": [
+          {
+            "item": "Netto hakket oksekød 14-18 % (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "30 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 2,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Squash",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Agurk",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hakkede tomater",
+            "amount": 2,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Tomatpuré (lille dåse)",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Spaghetti",
+            "amount": 500,
+            "unit": "g",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Oregano",
+          "Olie",
+          "Salt og peber",
+          "Oksebouillon"
+        ],
+        "steps": [
+          "Hak løg og hvidløg fint, og riv gulerødder og squash.",
+          "Brun kødet i lidt olie. Tilsæt løg, hvidløg, gulerod og squash, og steg 3 minutter.",
+          "Rør 2 spsk. tomatpuré i, og tilsæt hakkede tomater, 1 tsk. oregano og ½ terning bouillon.",
+          "Lad sovsen simre under låg i 15-20 minutter. Smag til med salt og peber.",
+          "Kog spaghetti efter anvisningen.",
+          "Server med agurkestave."
+        ]
+      },
+      {
+        "id": "farsbroed",
+        "name": "Farsbrød med kartofler, brun sovs og ærter",
+        "time": "45 min",
+        "protein": "Svin og kalv",
+        "desc": "Saftigt farsbrød af magert grise- og kalvekød i ovnen med kogte kartofler, brun sovs og ærter.",
+        "ingredients": [
+          {
+            "item": "Netto hakket grise- og kalvekød 4-7 % (400 g)",
+            "amount": 2,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "25 kr. pr. pk."
+          },
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Æg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "30 kr. for 10 stk. (ØGO)"
+          },
+          {
+            "item": "Laktosefri letmælk",
+            "amount": 1,
+            "unit": "dl",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Havregryn",
+            "amount": 50,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Frosne ærter",
+            "amount": 1,
+            "unit": "pose",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Sovsekulør",
+            "amount": 1,
+            "unit": "fl.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Salt og peber",
+          "Hvedemel",
+          "Oksebouillon",
+          "Plantemargarine"
+        ],
+        "steps": [
+          "Tænd ovnen på 200 grader. Skræl kartoflerne og sæt dem over at koge, ca. 20 minutter.",
+          "Rør kød, revet løg, æg, havregryn, mælk, 1 tsk. salt og lidt peber sammen.",
+          "Form farsen til et aflangt brød i et ovnfast fad, og bag det i 35 minutter.",
+          "Hæld stegeskyen fra fadet i en gryde med 3 dl vand og ½ terning bouillon. Jævn med 1 spsk. mel rørt ud i lidt vand, og farv med sovsekulør.",
+          "Kog ærterne 2-3 minutter.",
+          "Skær farsbrødet i skiver og server med kartofler, sovs og ærter."
+        ]
+      },
+      {
+        "id": "stegtflaesk",
+        "name": "Stegt flæsk med persillesovs og kartofler",
+        "time": "40 min",
+        "protein": "Svin",
+        "desc": "Sprødt stegt flæsk med kogte kartofler og en persillesovs lavet på laktosefri mælk. Rødbeder ved siden af.",
+        "ingredients": [
+          {
+            "item": "Flæsk i skiver (250-400 g)",
+            "amount": 3,
+            "unit": "pk.",
+            "cat": "Kød og fisk",
+            "offer": "19 kr. pr. pk."
+          },
+          {
+            "item": "Kartofler",
+            "amount": 1,
+            "unit": "kg",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Persille",
+            "amount": 1,
+            "unit": "bundt",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Laktosefri letmælk",
+            "amount": 5,
+            "unit": "dl",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Syltede rødbeder",
+            "amount": 1,
+            "unit": "glas",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Plantemargarine",
+          "Hvedemel",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Skræl kartoflerne og kog dem i letsaltet vand, ca. 20 minutter.",
+          "Læg flæskeskiverne på en bageplade med bagepapir og bag dem ved 200 grader i 25-30 minutter, til de er sprøde. Vend dem halvvejs.",
+          "Smelt 2 spsk. plantemargarine i en gryde, rør 3 spsk. mel i, og pisk mælken i lidt ad gangen.",
+          "Lad sovsen koge 3-4 minutter under omrøring, og smag til med salt og peber.",
+          "Hak persillen og rør den i sovsen lige før servering.",
+          "Server flæsket med kartofler, persillesovs og rødbeder."
+        ]
+      },
+      {
+        "id": "tomatsuppe",
+        "name": "Tomatsuppe med pasta og kogte æg",
+        "time": "25 min",
+        "protein": "Vegetar",
+        "desc": "Mild, glat tomatsuppe med små pastaskruer og halve kogte æg. En klassisk børneret.",
+        "ingredients": [
+          {
+            "item": "Løg",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Hvidløg",
+            "amount": 1,
+            "unit": "fed",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Gulerødder",
+            "amount": 2,
+            "unit": "stk.",
+            "cat": "Frugt og grønt"
+          },
+          {
+            "item": "Æg",
+            "amount": 6,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)",
+            "offer": "30 kr. for 10 stk. (ØGO)"
+          },
+          {
+            "item": "Laktosefri madlavningsfløde",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Mejeri (laktosefri)"
+          },
+          {
+            "item": "Hakkede tomater",
+            "amount": 3,
+            "unit": "dåser",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Pastaskruer",
+            "amount": 250,
+            "unit": "g",
+            "cat": "Kolonial"
+          },
+          {
+            "item": "Groft brød eller flutes",
+            "amount": 1,
+            "unit": "stk.",
+            "cat": "Kolonial"
+          }
+        ],
+        "pantry": [
+          "Olie",
+          "Grøntsagsbouillon",
+          "Sukker",
+          "Salt og peber"
+        ],
+        "steps": [
+          "Kog æggene i 8 minutter, køl dem af i koldt vand og pil dem.",
+          "Svits hakket løg, hvidløg og revet gulerod i lidt olie i en gryde i 3 minutter.",
+          "Tilsæt hakkede tomater, 5 dl vand, 1 terning bouillon og 1 tsk. sukker, og lad det koge 10 minutter.",
+          "Kog imens pastaen efter anvisningen.",
+          "Blend suppen glat, rør ½ fløde i og smag til med salt og peber.",
+          "Kom pasta og halve æg i suppen, og server med lunt brød."
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-w47",
     "year": 2026,
     "week": 47,
@@ -1367,327 +1730,6 @@
           "Bag spyddene på en plade i ovnen i 15-18 minutter, til kyllingen er gennemstegt.",
           "Riv halvdelen af agurken groft, pres vandet fra, og rør den med yoghurt, presset hvidløg, salt og peber.",
           "Server spyddene med ris, tzatziki og resten af agurken i stave."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "2026-w43",
-    "year": 2026,
-    "week": 43,
-    "created": "2026-10-17",
-    "store": "Netto",
-    "offers_period": "17.–23. oktober",
-    "note": "Tilbudspriserne er fra Nettos avis 17.–23. oktober via etilbudsavis. Ugens fisketilbud var kun laks, så torsken er til normalpris.",
-    "dishes": [
-      {
-        "id": "kyllingelaar",
-        "name": "Ovnbagte kyllingelår med kartofler og gulerødder",
-        "time": "45 min",
-        "protein": "Kylling",
-        "desc": "Sprøde kyllingeoverlår med paprika, bagt i samme fad som kartofler, gulerødder og løg. Agurk ved siden af.",
-        "ingredients": [
-          {
-            "item": "Danske kyllingeoverlår (300-400 g)",
-            "amount": 3,
-            "unit": "pk.",
-            "cat": "Kød og fisk",
-            "offer": "10 kr. pr. pk."
-          },
-          {
-            "item": "Kartofler",
-            "amount": 1.5,
-            "unit": "kg",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Gulerødder",
-            "amount": 6,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Løg",
-            "amount": 2,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Agurk",
-            "amount": 1,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          }
-        ],
-        "pantry": [
-          "Olie",
-          "Salt og peber",
-          "Paprika",
-          "Timian"
-        ],
-        "steps": [
-          "Tænd ovnen på 200 grader varmluft.",
-          "Skær kartofler i både, gulerødder i stave og løg i kvarte. Vend det med olie, salt og timian i et stort fad.",
-          "Gnid kyllingelårene med olie, salt, peber og 2 tsk. paprika, og læg dem oven på grøntsagerne med skindet opad.",
-          "Bag i ca. 40 minutter, til kyllingen er gennemstegt og skindet sprødt.",
-          "Server med agurkestave."
-        ]
-      },
-      {
-        "id": "chili",
-        "name": "Chili con carne med ris",
-        "time": "35 min",
-        "protein": "Okse",
-        "desc": "Mild chili med hakket oksekød, bønner og majs. Laktosefri cremefraiche på toppen.",
-        "ingredients": [
-          {
-            "item": "Netto hakket oksekød 8-12 % (400 g)",
-            "amount": 2,
-            "unit": "pk.",
-            "cat": "Kød og fisk",
-            "offer": "35 kr. pr. pk."
-          },
-          {
-            "item": "Løg",
-            "amount": 1,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Hvidløg",
-            "amount": 2,
-            "unit": "fed",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Peberfrugt",
-            "amount": 2,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Hakkede tomater",
-            "amount": 2,
-            "unit": "dåser",
-            "cat": "Kolonial"
-          },
-          {
-            "item": "Kidneybønner",
-            "amount": 1,
-            "unit": "dåse",
-            "cat": "Kolonial"
-          },
-          {
-            "item": "Majs",
-            "amount": 1,
-            "unit": "dåse",
-            "cat": "Kolonial"
-          },
-          {
-            "item": "Ris",
-            "amount": 300,
-            "unit": "g",
-            "cat": "Kolonial"
-          },
-          {
-            "item": "Laktosefri cremefraiche",
-            "amount": 1,
-            "unit": "bæger",
-            "cat": "Mejeri (laktosefri)"
-          }
-        ],
-        "pantry": [
-          "Spidskommen",
-          "Paprika",
-          "Olie",
-          "Salt og peber",
-          "Oksebouillon"
-        ],
-        "steps": [
-          "Sæt risene over efter anvisningen på posen.",
-          "Hak løg og hvidløg, og skær peberfrugterne i tern.",
-          "Brun kødet i en gryde i lidt olie. Tilsæt løg, hvidløg, peberfrugt, 2 tsk. spidskommen og 2 tsk. paprika, og steg 2 minutter.",
-          "Tilsæt hakkede tomater, skyllede bønner, majs og ½ terning bouillon. Lad det simre 15 minutter.",
-          "Smag til med salt og peber, og server med ris og en klat cremefraiche."
-        ]
-      },
-      {
-        "id": "wok",
-        "name": "Kyllingewok med nudler",
-        "time": "25 min",
-        "protein": "Kylling",
-        "desc": "Hurtig wok med kyllingestrimler, broccoli, peberfrugt og gulerod i teriyakisauce med ægnudler.",
-        "ingredients": [
-          {
-            "item": "Dansk kyllingebrystfilet (600-1000 g)",
-            "amount": 1,
-            "unit": "pk.",
-            "cat": "Kød og fisk",
-            "offer": "49 kr."
-          },
-          {
-            "item": "Broccoli",
-            "amount": 1,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Peberfrugt",
-            "amount": 1,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Gulerødder",
-            "amount": 2,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Hvidløg",
-            "amount": 2,
-            "unit": "fed",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Ægnudler",
-            "amount": 250,
-            "unit": "g",
-            "cat": "Kolonial"
-          },
-          {
-            "item": "Teriyakisauce",
-            "amount": 1,
-            "unit": "flaske",
-            "cat": "Kolonial"
-          }
-        ],
-        "pantry": [
-          "Olie",
-          "Sojasauce"
-        ],
-        "steps": [
-          "Kog nudlerne efter anvisningen, og skyl dem i koldt vand.",
-          "Skær kyllingen i tynde strimler, broccoli i små buketter, peberfrugt i strimler og gulerødder i tynde skiver. Hak hvidløget.",
-          "Steg kyllingen ved høj varme i lidt olie i en wok eller stor pande, til den er gennemstegt. Tag den op.",
-          "Steg grøntsager og hvidløg 3-4 minutter, så de stadig er sprøde.",
-          "Kom kylling, nudler, 1 dl teriyakisauce og en skvæt soja i, og vend det hele rundt, til det er varmt."
-        ]
-      },
-      {
-        "id": "aeggekage",
-        "name": "Æggekage med kartofler og purløg",
-        "time": "30 min",
-        "protein": "Vegetar",
-        "desc": "Klassisk æggekage på panden med stegte kartofler, cherrytomater og purløg. Serveres med rugbrød.",
-        "ingredients": [
-          {
-            "item": "Dava danske frilandsæg (8 stk.)",
-            "amount": 1,
-            "unit": "pk.",
-            "cat": "Mejeri (laktosefri)",
-            "offer": "16 kr."
-          },
-          {
-            "item": "Laktosefri letmælk",
-            "amount": 2,
-            "unit": "dl",
-            "cat": "Mejeri (laktosefri)"
-          },
-          {
-            "item": "Kartofler",
-            "amount": 0.5,
-            "unit": "kg",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Cherrytomater",
-            "amount": 1,
-            "unit": "bakke",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Purløg",
-            "amount": 1,
-            "unit": "bundt",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Schulstad levebrød (rugbrød)",
-            "amount": 1,
-            "unit": "stk.",
-            "cat": "Kolonial",
-            "offer": "9 kr."
-          }
-        ],
-        "pantry": [
-          "Hvedemel",
-          "Plantemargarine",
-          "Salt og peber"
-        ],
-        "steps": [
-          "Kog kartoflerne møre (ca. 15 minutter), lad dem køle lidt af, og skær dem i skiver.",
-          "Pisk 8 æg med 2 dl mælk, 1 spsk. mel, ½ tsk. salt og lidt peber.",
-          "Brun kartoffelskiverne i plantemargarine på en stor pande.",
-          "Hæld æggemassen over og lad den stivne ved lav varme under låg i 10-12 minutter. Træk forsigtigt i den med en spatel undervejs.",
-          "Top med halverede cherrytomater og klippet purløg, og server med rugbrød."
-        ]
-      },
-      {
-        "id": "torsk",
-        "name": "Torsk med kartofler, ærter og persillesovs",
-        "time": "30 min",
-        "protein": "Fisk",
-        "desc": "Mild ovnbagt torsk med kogte kartofler, ærter og en persillesovs lavet på laktosefri mælk.",
-        "ingredients": [
-          {
-            "item": "Torskefilet, frost (ca. 500 g)",
-            "amount": 1,
-            "unit": "pk.",
-            "cat": "Kød og fisk"
-          },
-          {
-            "item": "Kartofler",
-            "amount": 1,
-            "unit": "kg",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Persille",
-            "amount": 1,
-            "unit": "bundt",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Citron",
-            "amount": 1,
-            "unit": "stk.",
-            "cat": "Frugt og grønt"
-          },
-          {
-            "item": "Laktosefri letmælk",
-            "amount": 5,
-            "unit": "dl",
-            "cat": "Mejeri (laktosefri)"
-          },
-          {
-            "item": "Frosne ærter",
-            "amount": 1,
-            "unit": "pose",
-            "cat": "Kolonial"
-          }
-        ],
-        "pantry": [
-          "Hvedemel",
-          "Plantemargarine",
-          "Salt og peber"
-        ],
-        "steps": [
-          "Tø torsken op i køleskabet dagen før, eller bag den fra frost efter anvisningen på pakken.",
-          "Tænd ovnen på 180 grader. Skræl kartoflerne og kog dem i letsaltet vand, ca. 20 minutter.",
-          "Læg torsken i et smurt fad, drys med salt og peber og pres lidt citron over. Bag i 12-15 minutter.",
-          "Smelt 3 spsk. plantemargarine i en gryde, pisk 3 spsk. mel i, og tilsæt mælken lidt ad gangen under piskning. Lad sovsen koge 3 minutter, og rør hakket persille, salt og peber i.",
-          "Kog ærterne et par minutter, og server det hele sammen med citronbåde."
         ]
       }
     ]
